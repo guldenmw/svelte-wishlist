@@ -1,17 +1,19 @@
 <script>
+	import Layout from "./components/Layout.svelte";
 	export let name;
+	// import AppBar from './components/AppBar.svelte';
+	// import SideDrawer from './components/SideDrawer.svelte';
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<Layout/>
 </main>
 
 <style>
 	main {
 		text-align: center;
-		padding: 1em;
-		max-width: 240px;
+		/*padding: 1em;*/
+		/*max-width: 240px;*/
 		margin: 0 auto;
 	}
 
